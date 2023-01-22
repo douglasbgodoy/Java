@@ -90,34 +90,30 @@ Windows<br>
 * [Documentação ](https://code.visualstudio.com/docs/java/java-tutorial)
 * [Estensão Java for Visual Studio Code ](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 <br>
-Crie um arquivo "primeiro.cpp"<br> 
-Neste momento temos a imagem pedindo para instalar a extensão<br>
+Abrir o VScode, clicar no ícone "extenções"<br> 
 <p align="center"> 
 <img src="/TOOLS/IMG/001-Extensions.jpeg" width="400" align="center">
 </p 
 <br>
-Uma outra forma de instalar a extensão é pesquisar a C/C++ Extension Pack <br>
+Digitar no campo "pesquisa de extenções" "Java" <br>
 <p align="center"> 
 <img src="/TOOLS/IMG/002-Extensions.jpeg" width="400" align="center">
 </p 
 <br>
-Também é possível instalar somente esta extensão, porém recomendo instalar as duas <br>
 <p align="center"> 
 <img src="/TOOLS/IMG/003-ExtensionsJava.jpeg" width="400" align="center">
 </p 
 <br>
-
-
+Instalar o Extension Pack for Java<br>
+Conforme dmonstrado abaixo seguir o passo a passo <br>
 <p align="center"> 
 <img src="/TOOLS/IMG/004-ExtensionsJavaInstall.jpeg" width="400" align="center">
 </p 
 <br>
-
 <p align="center"> 
 <img src="/TOOLS/IMG/005-ExtensionsJavaInstall.jpeg" width="400" align="center">
 </p 
 <br>
-Agora com as extensões instaladas 
 
 
 **Visual Studio Code IDE**<br>
