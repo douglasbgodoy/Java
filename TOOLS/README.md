@@ -20,15 +20,61 @@ Windows<br>
 **Netbeans IDE**<br>
 Ubuntu<br>
 
-1. Documentação<br>
-* [Download Code::Blocks IDE](http://www.codeblocks.org/downloads/binaries/#imagesoslinux48pnglogo-linux-32-and-64-bit)
-* [Documentação codeblocks-devs ](https://launchpad.net/~codeblocks-devs)
-* [Documentação codeblocks-devs release ](https://launchpad.net/~codeblocks-devs/+archive/ubuntu/release)
-2. Fazer atualização <br>
-sudo apt update<br>
+1. Verificar se o Java esta instalado<br>
+java --version
 
-3. Instalar<br>
-sudo apt install codeblocks<br>
+2. Download 
+* [Java SE Development Kit 19.0.2](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.<br>
+Neste caso como já tinha instalado via .deb tive que fazer todas as configurações abaixo, porém recomendo fazer 
+o processo 
+* [Documentação Instalação ](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html)
+
+3. Instalar o Java<br>
+https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
+sudo dpkg -i package_file.deb
+
+4. Instalar o Java, este momento será apresentado o seguinte erro:<br>
+dpkg: error processing package jdk-19 (--install):<br>
+ dependency problems - leaving unconfigured<br>
+Errors were encountered while processing:<br>
+ jdk-19<br>
+* [Ask](https://askubuntu.com/questions/1397989/java-jdk-wont-install)
+
+5. Fazer atualização<br>
+sudo apt update<br>
+apt list --upgradable<br>
+apt install -f<br>
+
+6. Instalar novamente o Java<br>
+https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
+sudo dpkg -i package_file.deb
+
+7. Mesmo já tendo feito o processo via .deb é nessário realizar os seguintes passos: <br>
+https://www.edivaldobrito.com.br/como-instalar-o-oracle-java-19-no-ubuntu-debian-e-derivados/<br>
+Realizei correções nos comandos devido a  erros de digitação <br>
+sudo -s<br>
+echo "JAVA_HOME=/usr/lib/jvm/jdk-19" >> /etc/profile<br>
+echo "PATH=$PATH:$HOME/bin:$JAVA_HOME/bin" >> /etc/profile<br>
+echo "export JAVA_HOME" >> /etc/profile<br>
+echo "export PATH" >> /etc/profile<br>
+update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1<br>
+update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-19/bin/javac 1<br>
+update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk-19/bin/jar 1<br>
+update-alternatives --set java /usr/lib/jvm/jdk-19/bin/java<br>
+update-alternatives --set javac /usr/lib/jvm/jdk-19/bin/javac<br>
+update-alternatives --set jar /usr/lib/jvm/jdk-19/bin/jar<br>
+. /etc/profile<br>
+
+8. Instalação realizada com sucesso<br>
+java --version<br>
+javac --version<br>
+jar --version<br>
+
+9. Download Netbeans<br>
+* [Netbeans IDE](https://netbeans.apache.org/download/nb16/) for Windows, Linux or Mac OS.
+
+10. Install Netbeans<br>
+sudo dpkg -i apache-netbeans_16-1_all.deb
 
 **Visual Studio Code IDE**<br>
 Online<br>
