@@ -1,7 +1,7 @@
 #  Integrated Development Environment (IDE)<br> Programming Java
 
 <p align="center"> 
-<img src="/TOOLS/IMG/IDE-C.png" width="400" align="center">
+<img src="/TOOLS/IMG/IDE-Java.png" width="400" align="center">
 </p 
 
 <br>
@@ -17,7 +17,7 @@ Windows<br>
 * [Netbeans IDE](https://netbeans.apache.org/download/nb16/)
 
 
-**Netbeans IDE**<br>
+**Java SE Development Kit 19.0.2**<br>
 Ubuntu<br>
 
 1. Verificar se o Java esta instalado<br>
@@ -70,10 +70,12 @@ java --version<br>
 javac --version<br>
 jar --version<br>
 
-9. Download Netbeans<br>
+**Netbeans IDE**<br>
+Ubuntu<br>
+1. Download Netbeans<br>
 * [Netbeans IDE](https://netbeans.apache.org/download/nb16/) for Windows, Linux or Mac OS.
 
-10. Install Netbeans<br>
+2. Install Netbeans<br>
 sudo dpkg -i apache-netbeans_16-1_all.deb
 
 **Visual Studio Code IDE**<br>
@@ -91,38 +93,32 @@ Windows<br>
 Crie um arquivo "primeiro.cpp"<br> 
 Neste momento temos a imagem pedindo para instalar a extensão<br>
 <p align="center"> 
-<img src="/TOOLS/IMG/001-AutoInstallCpp.png" width="400" align="center">
+<img src="/TOOLS/IMG/001-Extensions.jpeg" width="400" align="center">
 </p 
 <br>
 Uma outra forma de instalar a extensão é pesquisar a C/C++ Extension Pack <br>
 <p align="center"> 
-<img src="/TOOLS/IMG/002-ExtensionPackCpp.png" width="400" align="center">
+<img src="/TOOLS/IMG/002-Extensions.jpeg" width="400" align="center">
 </p 
 <br>
 Também é possível instalar somente esta extensão, porém recomendo instalar as duas <br>
 <p align="center"> 
-<img src="/TOOLS/IMG/003-ExtensionCpp.png" width="400" align="center">
+<img src="/TOOLS/IMG/003-ExtensionsJava.jpeg" width="400" align="center">
 </p 
 <br>
-Agora com as extensões instaladas é necessário uma configuração para que seja possivel compilar projetos em C++<br>
-Para quem tem o CodeBlocks instalado realizar o passo a passo  abaixo ou <a href="https://code.visualstudio.com/docs/cpp/config-mingw"> Documentação Using GCC with MinGW</a>.
+
+
+<p align="center"> 
+<img src="/TOOLS/IMG/004-ExtensionsJavaInstall.jpeg" width="400" align="center">
+</p 
 <br>
+
+<p align="center"> 
+<img src="/TOOLS/IMG/005-ExtensionsJavaInstall.jpeg" width="400" align="center">
+</p 
 <br>
+Agora com as extensões instaladas 
 
-
-Add the path to your Mingw-w64 bin folder to the Windows PATH environment variable by using the following steps:
-
-1. In the Windows search bar, type 'settings' to open your Windows Settings.<br>
-2. Search for Edit environment variables for your account.<br>
-3. Choose the Path variable in your User variables and then select Edit.<br>
-4. Select New and add the Mingw-w64 destination folder path to the system path. The exact path depends on which version of Mingw-w64 you have installed and where you installed it. If you used the settings above to install Mingw-w64, then add this to the path: C:\Program Files\CodeBlocks\MinGW\bin. <br>
-5. Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available.
-6. Reboot or Sign out  <br>
-**Check your MinGW installation**<br>
-To check that your Mingw-w64 tools are correctly installed and available, open a new Command Prompt and type: <br>
-gcc --version <br>
-g++ --version <br>
-gdb --version 
 
 **Visual Studio Code IDE**<br>
 Ubuntu <br>
@@ -132,28 +128,13 @@ Ubuntu <br>
 https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
 sudo dpkg -i package_file.deb<br>
 
-3. Instalar a extesão C/C++ Extension Pack no VScode<br>
-4. Verificar se o gcc e g++ esta instalado <br>
-gcc --version<br>
-g++ --version<br>
+3. Instalar a extesão Extension Pack for Java no VScode<br>
 
-5. Instalar gcc e g++ <br>
-sudo apt install gcc<br>
-Erro<br>
-sudo apt install g++
-Erro<br>
+4. Instalação realizada com sucesso<br>
+java --version<br>
+javac --version<br>
+jar --version<br>
 
-6. Fazer atualização <br>
-sudo apt update<br>
-apt list --upgradable<br>
-
-7. Tentar instalar novamente gcc e g++<br>
-sudo apt install gcc<br>
-sudo apt install g++<br>
-
-8. Instalação com sucesso <br>
-gcc --version<br>
-g++ --version<br>
 
 ## Software
 * [Java SE Development Kit 19.0.2](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.
