@@ -23,7 +23,7 @@ Neste momento este conteúdo será disponibilizado em Português e Inglês, por�
 
 Este diretório tem por finalidade ajudar e contribuir com estudos e desenvolvimento, 
 sendo assim qualquer erro de ortografia ou concordancia em ambos os idiomas serão corridos
-durante seu desemvolvimento. 
+durante seu desenvolvimento. 
 <br>
 
 Contribuições sempre serão bem vindas!    
