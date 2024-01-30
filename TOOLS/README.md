@@ -14,7 +14,7 @@ Windows<br>
 * [Oracle Java ](https://www.oracle.com/br/java/)
 * [Java SE Development Kit 21 ](https://www.oracle.com/br/java/technologies/downloads/)
 * [Netbeans org ](https://netbeans.apache.org/)
-* [Netbeans IDE](https://netbeans.apache.org/download/nb19/)
+* [Netbeans IDE](https://netbeans.apache.org/front/main/download/nb20/)
 
 
 **Java SE Development Kit 21**<br>
@@ -119,7 +119,7 @@ Digitar no campo "pesquisa de extenções" "Java" <br>
 </p 
 <br>
 Instalar o Extension Pack for Java<br>
-Conforme dmonstrado abaixo seguir o passo a passo <br>
+Conforme apresentado abaixo seguir o passo a passo <br>
 <p align="center"> 
 <img src="/TOOLS/IMG/004-ExtensionsJavaInstall.jpeg" width="400" align="center">
 </p 
@@ -149,8 +149,8 @@ jar --version
 ```
 
 ## Software
-* [Java SE Development Kit 19.0.2](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.
-* [Netbeans IDE](https://netbeans.apache.org/download/nb16/) for Windows, Linux or Mac OS.
+* [Java SE Development Kit 21.0.2 ](https://www.oracle.com/java/technologies/downloads/) for Windows, Linux or Mac OS.
+* [Netbeans IDE](https://netbeans.apache.org/front/main/download/nb20/) for Windows, Linux or Mac OS.
 * [Visual Studio Code IDE](https://code.visualstudio.com) for Windows, Linux or Mac OS.
 ## Extension for Visual Studio Code :
 
@@ -159,3 +159,6 @@ EMMET (extensão) - Produtividade
     
 Remote (extensão) - SSH
 * [Remote](https://code.visualstudio.com/docs/remote/ssh-tutorial)
+
+Code Runner (extensão) - .run
+* [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
