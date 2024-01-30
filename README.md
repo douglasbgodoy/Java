@@ -11,8 +11,8 @@
 ## Concept
 
 ## Software
-* [Java SE Development Kit 19.0.2](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.
-* [Netbeans IDE](https://netbeans.apache.org/download/nb16/) for Windows, Linux or Mac OS.
+* [Java SE Development Kit 21.0.2 ](https://www.oracle.com/java/technologies/downloads/) for Windows, Linux or Mac OS.
+* [Netbeans IDE](https://netbeans.apache.org/front/main/download/nb20/) for Windows, Linux or Mac OS.
 * [Visual Studio Code IDE](https://code.visualstudio.com) for Windows, Linux or Mac OS.
 
     
