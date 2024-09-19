@@ -62,6 +62,7 @@ dpkg: error processing package jdk-19 (--install):<br>
  dependency problems - leaving unconfigured<br>
 Errors were encountered while processing:<br>
  jdk-19<br>
+ 
 * [Ask](https://askubuntu.com/questions/1397989/java-jdk-wont-install)
 
 Mesmo já tendo feito o processo via .deb é nessário realizar os seguintes passos: <br>
