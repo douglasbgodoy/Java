@@ -27,9 +27,8 @@ java --version
 
 2. Download 
 * [Java SE Development Kit ](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.<br>
-Neste caso como já tinha instalado via .deb tive que fazer todas as configurações abaixo, porém recomendo fazer 
-o processo 
-* [Documentação Instalação ](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html)
+ 
+* [Documentação Instalação ](https://docs.oracle.com/en/java/javase/23/install/overview-jdk-installation.html)
 
 3. Instalar o Java<br>
 https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
@@ -37,27 +36,34 @@ https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
 sudo dpkg -i package_file.deb
 ```
 
-4. Instalar o Java, este momento será apresentado o seguinte erro:<br>
-dpkg: error processing package jdk-19 (--install):<br>
- dependency problems - leaving unconfigured<br>
-Errors were encountered while processing:<br>
- jdk-19<br>
-* [Ask](https://askubuntu.com/questions/1397989/java-jdk-wont-install)
-
-5. Fazer atualização<br>
+4. Caso apresentar falha realize atualização<br>
 ```
 sudo apt update
 apt list --upgradable
 apt install -f
 ```
 
-6. Instalar novamente o Java<br>
+5. Instalar novamente o Java<br>
 https://help.ubuntu.com/kubuntu/desktopguide/C/manual-install.html<br>
 ```
 sudo dpkg -i package_file.deb
 ```
 
-7. Mesmo já tendo feito o processo via .deb é nessário realizar os seguintes passos: <br>
+6. Instalação realizada com sucesso<br>
+```
+java --version
+javac --version
+jar --version
+```
+
+Instalar o Java, este momento será apresentado o seguinte erro:<br>
+dpkg: error processing package jdk-19 (--install):<br>
+ dependency problems - leaving unconfigured<br>
+Errors were encountered while processing:<br>
+ jdk-19<br>
+* [Ask](https://askubuntu.com/questions/1397989/java-jdk-wont-install)
+
+Mesmo já tendo feito o processo via .deb é nessário realizar os seguintes passos: <br>
 https://www.edivaldobrito.com.br/como-instalar-o-oracle-java-19-no-ubuntu-debian-e-derivados/<br>
 Realizei correções nos comandos devido a  erros de digitação <br>
 ```
@@ -73,13 +79,6 @@ update-alternatives --set java /usr/lib/jvm/jdk-19/bin/java
 update-alternatives --set javac /usr/lib/jvm/jdk-19/bin/javac
 update-alternatives --set jar /usr/lib/jvm/jdk-19/bin/jar
 . /etc/profile 
-```
-
-8. Instalação realizada com sucesso<br>
-```
-java --version
-javac --version
-jar --version
 ```
 
 **Netbeans IDE**<br>
