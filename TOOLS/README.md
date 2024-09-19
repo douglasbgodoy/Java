@@ -12,12 +12,12 @@
 **Netbeans IDE**<br>
 Windows<br>
 * [Oracle Java ](https://www.oracle.com/br/java/)
-* [Java SE Development Kit 21 ](https://www.oracle.com/br/java/technologies/downloads/)
+* [Java SE Development Kit ](https://www.oracle.com/br/java/technologies/downloads/)
 * [Netbeans org ](https://netbeans.apache.org/)
-* [Netbeans IDE](https://netbeans.apache.org/front/main/download/nb20/)
+* [Netbeans IDE](https://netbeans.apache.org/front/main/download/)
 
 
-**Java SE Development Kit 21**<br>
+**Java SE Development Kit**<br>
 Ubuntu<br>
 
 1. Verificar se o Java esta instalado<br>
@@ -26,7 +26,7 @@ java --version
 ```
 
 2. Download 
-* [Java SE Development Kit 21](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.<br>
+* [Java SE Development Kit ](https://www.oracle.com/br/java/technologies/downloads/) for Windows, Linux or Mac OS.<br>
 Neste caso como já tinha instalado via .deb tive que fazer todas as configurações abaixo, porém recomendo fazer 
 o processo 
 * [Documentação Instalação ](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html)
