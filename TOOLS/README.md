@@ -55,7 +55,8 @@ java --version
 javac --version
 jar --version
 ```
-
+<br>
+Solução para jdk-19<br>
 Instalar o Java, este momento será apresentado o seguinte erro:<br>
 dpkg: error processing package jdk-19 (--install):<br>
  dependency problems - leaving unconfigured<br>
