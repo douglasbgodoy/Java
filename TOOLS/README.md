@@ -86,7 +86,7 @@ update-alternatives --set jar /usr/lib/jvm/jdk-19/bin/jar
 **Netbeans IDE**<br>
 Ubuntu<br>
 1. Download Netbeans<br>
-* [Netbeans IDE](https://netbeans.apache.org/download/nb16/) for Windows, Linux or Mac OS.
+* [Netbeans IDE](https://netbeans.apache.org/front/main/download/) for Windows, Linux or Mac OS.
 
 2. Install Netbeans<br>
 ```
